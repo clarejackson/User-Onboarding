@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Form = (props) => {
   const {
@@ -24,6 +24,7 @@ const Form = (props) => {
     <form onSubmit={onSubmit}>
       <div>
         <h2>User Onbording</h2>
+
 
         <button disabled={disabled}>Submit</button>
 
@@ -70,7 +71,8 @@ const Form = (props) => {
         type='radio'
         checked={values.terms === 'true'}
         />
-
+        
+        
       </div>
     </form>
   )

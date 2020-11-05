@@ -80,7 +80,7 @@ function App() {
       name: formValues.name.trim(),
       email: formValues.email.trim(),
       password: formValues.password.trim(),
-      // terms: {checked ? formValues[terms]}
+      terms: formValues.terms
     }
     postNewUsers(newUser)
   }
